@@ -68,4 +68,4 @@ for (let i = 0; i < users.length; i++) {
 }
 
 console.log(`Масив телефонних номерів користувачів, у яких баланс більше 2000 доларів = [${phon.join(", ")}]`);
-console.log(`Сума балансів ${total}`);
+console.log(`Сума всіх балансів ${total}`);
