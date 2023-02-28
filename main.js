@@ -61,7 +61,6 @@ let total = 0;
 for (let i = 0; i < users.length; i++) {
         let balanc = Number(users[i].balance.replace(/[\$,]/g, ''));
         total += balanc;
-
         if (balanc > 2000) {
                 phon.push(users[i].phone);
         }
